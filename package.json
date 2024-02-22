@@ -1,7 +1,7 @@
 {
   "name": "vue-txt-anime",
   "type": "module",
-  "version": "0.0.7-beta.2",
+  "version": "0.0.7-beta.3",
   "private": false,
   "description": "It is a vue component, which contains many beautiful and free text effects",
   "author": "phk422 <penghongkun422@gmail.com>",
