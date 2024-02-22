@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     tags:
-      - 'v*'
+      - 'release v*'
     paths-ignore:
       - LICENSE
 
