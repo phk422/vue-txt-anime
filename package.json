@@ -41,6 +41,7 @@
     "build:tsc": "vue-tsc --emitDeclarationOnly",
     "bump": "bump -c -t -p",
     "preview": "vite preview",
+    "publish:ci": "npm publish --access public",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
