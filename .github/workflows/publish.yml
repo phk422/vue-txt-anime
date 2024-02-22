@@ -1,5 +1,9 @@
 name: Deploy GitHub Pages
 
+permissions:
+  id-token: write
+  contents: write
+
 on:
   push:
     tags:
