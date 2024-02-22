@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
 
       - name: Publish to npm
-        run:
+        run: |
           pnpm build
           npm publish
         env:
