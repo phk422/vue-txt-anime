@@ -1,11 +1,7 @@
 <script lang="ts" setup>
-import { defineOptions, defineProps, onMounted, ref, withDefaults } from 'vue'
+import { defineProps, onMounted, ref, withDefaults } from 'vue'
 import type { TxtAnimeOptions } from 'txtanime.js'
 import { TxtAnime } from 'txtanime.js'
-
-defineOptions({
-  name: 'VueTxtAnime',
-})
 
 const props = withDefaults(defineProps<{
   options?: TxtAnimeOptions
@@ -20,6 +16,12 @@ const elRef = ref<HTMLDivElement>()
 onMounted(() => {
   void new TxtAnime(elRef.value!, props.options)
 })
+</script>
+
+<script lang="ts">
+export default {
+  name: 'VueTxtAnime',
+}
 </script>
 
 <template>
