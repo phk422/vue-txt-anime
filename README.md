@@ -1,6 +1,13 @@
 # VueTxtAnime
 
-It is a vue component, which contains many beautiful and free text effects
+> It is a vue component, which contains many beautiful and free text effects.
+
+<!-- ![demo.gif](./demo.gif) -->
+<div align="center"><img src="./demo.gif" width=50%/></div>
+
+## Demo
+
+[click](https://mohamedfrindi.github.io/TxtAnime.js/)
 
 # Reference and Thanks
 
