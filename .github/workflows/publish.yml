@@ -40,10 +40,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
 
-      - name: Publish to npm
-        run: |
-          pnpm build
-          npm publish
+      - run: pnpm build
+
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           NPM_CONFIG_PROVENANCE: true
