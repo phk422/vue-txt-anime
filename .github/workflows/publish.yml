@@ -17,6 +17,9 @@ jobs:
           persist-credentials: false
           fetch-depth: 0 # github代码拉取深度
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
       - name: Use Node.js v18
         uses: actions/setup-node@v3
         with:
