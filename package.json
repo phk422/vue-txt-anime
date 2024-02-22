@@ -36,7 +36,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build:demo": "vite build --config vite.config.demo.js",
+    "build:demo": "vite build --config vite.config.demo.ts",
     "build": "vite build && pnpm build:tsc",
     "build:tsc": "vue-tsc --emitDeclarationOnly",
     "publish:ci": "pnpm build:tsc & bump -c -t -p & npm publish",
