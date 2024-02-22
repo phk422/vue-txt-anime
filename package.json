@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phk422/vue-txt-anime"
+    "url": "git+https://github.com/phk422/vue-txt-anime"
   },
   "keywords": [
     "vue",
