@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import VueTxtAnime from '../dist/vue-txt-anime'
+import VueTxtAnime from '../lib/index'
 </script>
 
 <template>
