@@ -43,7 +43,8 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "txtanime.js": "^1.7.0"
+    "txtanime.js": "^1.7.0",
+    "vue": "^3.2.0"
   },
   "dependencies": {
     "txtanime.js": "^1.7.0",
